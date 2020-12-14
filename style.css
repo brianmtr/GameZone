@@ -1,0 +1,49 @@
+footer{
+    width: 100%;
+    background-color: #282C53;
+}
+
+.firstBoxFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+} 
+
+.firstBoxFooter a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.OpenHours{
+    padding-left: 80%;
+}
+
+.OpenHours ul{
+    list-style-type: none;
+    color: #fff;
+}
+
+.footerDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cgvMl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    position: relative;
+}
+
+.cgvMl a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color: #F6CD40;
+}
